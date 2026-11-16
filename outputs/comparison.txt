@@ -1,0 +1,10 @@
+FUZZY vs IF-ELSE THRESHOLD CONTROLLER - one simulated day (5-min steps)
+Energy assumes appliance power scales with its output level (fan 75 W, AC 1500 W, light 40 W at 100 %).
+
+          kWh fuzzy  kWh thr.  jump fuzzy  jump thr.  toggles F  toggles T
+fan            0.52      0.62         5.8        6.1         17         17
+ac            12.85     14.75         4.0        6.3          5         18
+light          0.31      0.36         3.2        1.7         17          5
+
+Total energy   : fuzzy 13.69 kWh   threshold 15.73 kWh   difference +13.0 % saved by fuzzy
+Energy while room empty: fuzzy 2.66 kWh   threshold 0.00 kWh
